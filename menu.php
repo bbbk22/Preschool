@@ -25,6 +25,9 @@ if (isset($_GET['log_out'])) {
         body{
             margin:0;
             padding:20px;
+            background: url(images/backgroundmenu.png) no-repeat;
+              background-position: center;
+              background-size: cover;
         }
         *{
             box-sizing: border-box;
@@ -32,11 +35,7 @@ if (isset($_GET['log_out'])) {
         section{
             padding-top: 90px;
         }
-        .menu{
-            background: url(images/backgroundmenu.png) no-repeat;
-  background-position: center;
-  background-size: cover;
-        }
+        
         .table{
             width: 100%;
             border-collapse: collapse;
