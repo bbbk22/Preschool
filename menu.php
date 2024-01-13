@@ -32,6 +32,11 @@ if (isset($_GET['log_out'])) {
         section{
             padding-top: 90px;
         }
+        .menu{
+            background: url(images/backgroundmenu.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+        }
         .table{
             width: 100%;
             border-collapse: collapse;
@@ -104,7 +109,7 @@ if (isset($_GET['log_out'])) {
         </form>
     </header>
 
-    <section>
+    <section class="menu">
         <table class="table"> 
             <thead>
                 <th>#</th>
@@ -140,7 +145,7 @@ if (isset($_GET['log_out'])) {
                 </tr>
             </tbody>
         </table>
-        <img src="images/backgroundmenu.png" alt="">
+        
     </section>
 </body>
 </html>
