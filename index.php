@@ -31,7 +31,7 @@
         <div class="content">
         <h3>Welcome to our <span>Kindergarten</span></h3>
             <p><br><span>"Little Learners"</span> where the journey of early childhood education is an adventure filled with laughter, discovery, and endless possibilities!</p>
-            <a href="#" class="btn">Learn More</a>
+            <a href="index.php#about" class="btn">Learn More</a>
         </div>
 
         <div class="image">
@@ -73,7 +73,7 @@
                 <h4>Our Curriculum:</h4>
                 <p>Our curriculum is thoughtfully crafted to inspire a love for learning. We focus on building essential skills such as language development, motor skills, social interaction, and early literacy. Through a combination of structured activities and free play,
                we aim to instill a sense of curiosity and a lifelong love of learning.</p>
-                <a href="#" class="btn">read more</a>
+                
 
             </div>
 

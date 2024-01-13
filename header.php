@@ -29,10 +29,10 @@ if (isset($_POST['login_user'])) {
 
 <header class="header">
 
-    <a href="#" class="logo"> <i class="fas fa-school"></i> Little Learners</a>
+    <a href="index.php" class="logo"> <i class="fas fa-school"></i> Little Learners</a>
 
     <nav class="navbar">
-        <a href="index.php#home">home</a>
+        <a href="index.php">home</a>
         <a href="index.php#about">about</a>
         <a href="index.php#education">education</a>
         <a href="index.php#teacher">teacher</a>
