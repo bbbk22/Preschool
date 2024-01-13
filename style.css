@@ -181,7 +181,8 @@ section {
 .home .content h3 span {
   color: var(--orange);
 }
-.home .content p span{
+
+.home .content p span {
   color: var(--orange);
 }
 
@@ -730,23 +731,69 @@ section {
 
 /* parent */
 .parent {
-  min-height: auto;
-  display: flex;
+  top: 10rem;
+  height: calc(100vh - 10rem);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   flex-wrap: wrap;
   gap: 1.5rem;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 
 .parent-box-container {
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  padding: 5rem;
+}
+
+/* end */
+
+/* dashboard */
+
+#dashboardContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  gap: 5rem;
+}
+
+.dashboard-box-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 2.5rem;
+  box-shadow: 0 0 20px #ddd;
+  position: relative;
+  overflow: clip;
+  border-radius: 2rem;
+}
+
+.dashboard-box-container-item-span {
+  font-size: 3rem;
+}
+
+.dashboard-box-container-item-icon {
+  position: absolute;
+  right: 0;
+  opacity: 0.5;
+  transform: translateY(-25%);
+}
+
+.dashboard-box-container-item-icon img {
+  width: auto;
+  height: 20rem;
 }
 
 /* end */
 
 /* child */
 #child {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -754,10 +801,14 @@ section {
   /* width: 100%; */
 }
 
+.child-name {
+  font-size: 4rem;
+}
+
 .child-image-box {
   display: flex;
-  width: 50rem;
-  height: 50rem;
+  width: 20rem;
+  height: 20rem;
   border-radius: 25rem;
   overflow: clip;
 }
@@ -765,7 +816,25 @@ section {
 .child-image-box img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
+}
+
+#child form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: black;
+}
+
+#child form textarea {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  height: 10rem;
+  border: 1px solid var(--black);
+  border-radius: 1rem;
 }
 
 /* end */

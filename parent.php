@@ -32,7 +32,7 @@ if (isset($_GET['log_out'])) {
             Little Learners
         </a>
         <nav class="navbar">
-            
+
             <a href="schedule.php">schedule</a>
             <a href="menu.php">menu</a>
         </nav>
@@ -49,7 +49,7 @@ if (isset($_GET['log_out'])) {
 
     <section class="parent" id="parent">
 
-        <div id="child" class="parent-box-container">
+        <div id="child" class="parent-box-container container">
             <div class="child-image-box">
                 <img src="
                 <?php if ($_SESSION['child_gender'] == 'male') {
@@ -62,12 +62,42 @@ if (isset($_GET['log_out'])) {
             <h2 class="child-name">
                 <?php echo $_SESSION['child_name'] ?>
             </h2>
+            <form action="">
+                <div class="input-box">
+                    <textarea name="sendMessafe" id="" placeholder="Send your Message..."></textarea>
+                    <button name="send_message" class="btn">Send Message</button>
+                </div>
+            </form>
         </div>
-
-        <div id="schedule" class="box-container">
-            <h2 class="schedule-title">
-                Schedule
-            </h2>
+        <div id="dashboardContent" class="parent-box-container">
+            <div id="schedule" class="dashboard-box-container">
+                <div class="dashboard-box-container-item">
+                    <h2 class="dashboard-box-container-item-title">
+                        Today's Schedule: 8:30AM
+                    </h2>
+                    <span class="dashboard-box-container-item-span">
+                        Circle Time
+                    </span>
+                    <span class="dashboard-box-container-item-icon">
+                        <img src="schedule.png" alt="">
+                    </span>
+                </div>
+            </div>
+            <div id="menu" class="dashboard-box-container">
+                <div class="dashboard-box-container-item">
+                    <h2 class="dashboard-box-container-item-title">
+                        Today's Menu:
+                    </h2>
+                    <span class="dashboard-box-container-item-span">
+                        Breakfast: Milk, Pancakes & Bananas
+                        <br>
+                        Lunch: Chicken Soup, Pasta, Cheese
+                    </span>
+                    <span class="dashboard-box-container-item-icon">
+                        <img src="menuu.png" alt="">
+                    </span>
+                </div>
+            </div>
         </div>
     </section>
 
