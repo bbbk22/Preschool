@@ -29,9 +29,9 @@
     <section class="home" id="home">
 
         <div class="content">
-            <h3>welcome to our <span>Kindergarten</span></h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur minus aut, in maiores quidem </p>
-            <a href="#" class="btn">learn more</a>
+        <h3>Welcome to our <span>Kindergarten</span></h3>
+            <p><br><span>"Little Learners"</span> where the journey of early childhood education is an adventure filled with laughter, discovery, and endless possibilities!</p>
+            <a href="#" class="btn">Learn More</a>
         </div>
 
         <div class="image">

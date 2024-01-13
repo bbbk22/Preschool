@@ -181,6 +181,9 @@ section {
 .home .content h3 span {
   color: var(--orange);
 }
+.home .content p span{
+  color: var(--orange);
+}
 
 .home .content p {
   font-size: 1.7rem;
