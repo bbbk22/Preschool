@@ -30,7 +30,7 @@ if (isset($_GET['log_out'])) {
             box-sizing: border-box;
         }
         section{
-            padding-top: 50px;
+            padding-top: 75px;
         }
         .table{
             width: 100%;
