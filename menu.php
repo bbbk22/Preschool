@@ -94,8 +94,8 @@ if (isset($_GET['log_out'])) {
             Little Learners
         </a>
         <nav class="navbar">
-            <a href="#schedule">schedule</a>
-            <a href="#menu">menu</a>
+            <a href="schedule.php">schedule</a>
+            <a href="menu.php">menu</a>
         </nav>
 
         <form action="" method="get">
