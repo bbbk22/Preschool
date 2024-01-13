@@ -190,6 +190,6 @@ if (isset($_GET['log_out'])) {
                 </tr>
             </tbody>
         </table>
-</section>
+    </section>
 </body>
 </html>
