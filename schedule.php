@@ -50,7 +50,7 @@ if (isset($_GET['log_out'])) {
             color: #ffffff;
         }
         .table tbody tr:nth-child(even){
-            background-color: #e9768f;
+            background-color: #f5f5f5;
         }
 
         /* responsive */
@@ -79,14 +79,12 @@ if (isset($_GET['log_out'])) {
                 left:0;
                 width: 50%;
                 padding-left: 15px;
-                font-size: 35px;
+                font-size: 10px;
                 font-weight: bold;
                 text-align: left;
             }
 
-            .table th:before{
-                font-size: 10px;
-            }
+            
         }
     </style>
 </head>

@@ -77,7 +77,7 @@ if (isset($_GET['log_out'])) {
                 left:0;
                 width: 50%;
                 padding-left: 15px;
-                font-size: 15px;
+                font-size: 10px;
                 font-weight: bold;
                 text-align: left;
             }
