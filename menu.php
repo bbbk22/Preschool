@@ -31,7 +31,7 @@ if (isset($_GET['log_out'])) {
         }
         section{
             padding-top: 90px;
-            background-image: url(backgroundmenu.png);
+            background-image: url(images/backgroundmenu.png);
         }
         .table{
             width: 100%;
