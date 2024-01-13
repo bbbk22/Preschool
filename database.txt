@@ -1,4 +1,19 @@
+CREATE DATABASE preschooldb
 
+CREATE TABLE parent (
+    parent_id INT PRIMARY KEY AUTO_INCREMENT,
+    full_name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+);
+
+CREATE TABLE child (
+    parent_id INT,
+    child_name VARCHAR(255) NOT NULL,
+    gender VARCHAR(10),
+    date_of_birth DATE,
+    CONSTRAINT fk_parent FOREIGN KEY (parent_id) REFERENCES parent(parent_id)
+);
 
 CREATE TABLE week (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -20,7 +35,6 @@ CREATE TABLE child_activities (
     child_name VARCHAR(255) NOT NULL,
     week_id INT,
     day_name VARCHAR(255) NOT NULL,
-    hour_of_day TIME NOT NULL,
     has_eaten_breakfast BOOLEAN DEFAULT 0,
     has_slept BOOLEAN DEFAULT 0,
     has_eaten_lunch BOOLEAN DEFAULT 0,
