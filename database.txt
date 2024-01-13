@@ -1,0 +1,41 @@
+
+
+CREATE TABLE week (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    week_name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE schedule (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    week_id INT,
+    day_name VARCHAR(255) NOT NULL,
+    hour_of_day TIME NOT NULL,
+    activity VARCHAR(255) NOT NULL,
+    CONSTRAINT fk_week FOREIGN KEY (week_id) REFERENCES week(id)
+);
+
+CREATE TABLE child_activities (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    parent_id INT,
+    child_name VARCHAR(255) NOT NULL,
+    week_id INT,
+    day_name VARCHAR(255) NOT NULL,
+    hour_of_day TIME NOT NULL,
+    has_eaten_breakfast BOOLEAN DEFAULT 0,
+    has_slept BOOLEAN DEFAULT 0,
+    has_eaten_lunch BOOLEAN DEFAULT 0,
+    CONSTRAINT fk_parent_2 FOREIGN KEY (parent_id) REFERENCES parent(parent_id),
+    CONSTRAINT fk_week_2 FOREIGN KEY (week_id) REFERENCES week(id)
+);
+
+CREATE TABLE kids_menu (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    week_id INT, day_name VARCHAR(255) NOT NULL,
+    breakfast_food VARCHAR(255) NOT NULL,
+    breakfast_drink VARCHAR(255) NOT NULL,
+    breakfast_fruit VARCHAR(255) NOT NULL,
+    lunch_food VARCHAR(255) NOT NULL,
+    lunch_drink VARCHAR(255) NOT NULL,
+    lunch_fruit VARCHAR(255) NOT NULL,
+    CONSTRAINT fk_week_3 FOREIGN KEY (week_id) REFERENCES week(id)
+);

@@ -1,35 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
-:root{
-    --orange:#f9ba60;
-    --pink:#e9768f;
-    --black: #1d1c1c;
-    --white: #fff;
-    --light-color:#666;
-    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+:root {
+  --orange: #f9ba60;
+  --pink: #e9768f;
+  --black: #1d1c1c;
+  --white: #fff;
+  --light-color: #666;
+  --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
 }
 
-*{
+* {
   font-family: 'Poppins', sans-serif;
-  margin: 0; padding: 0;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  outline: none; border: none;
+  outline: none;
+  border: none;
   text-decoration: none;
   text-transform: capitalize;
   transition: all .2s linear;
 }
 
-html{
+html {
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
-section{
+section {
   padding: 3rem 7%;
 }
 
-.heading{
+.heading {
   font-size: 4rem;
   color: var(--black);
   text-align: center;
@@ -38,12 +40,12 @@ section{
   margin-bottom: 6rem;
 }
 
-.heading span{
+.heading span {
   color: var(--orange);
   text-transform: uppercase;
 }
 
-.btn{
+.btn {
   font-size: 1.7rem;
   margin-top: 1rem;
   display: inline-block;
@@ -55,16 +57,18 @@ section{
   cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
   background: var(--orange);
   color: var(--white);
 }
 
 /* header */
 
-.header{
+.header {
   position: fixed;
-  top: 0; left: 0; right: 0;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: 1000;
   display: flex;
   align-items: center;
@@ -74,41 +78,42 @@ section{
   box-shadow: var(--box-shadow);
 }
 
-.header .logo{
+.header .logo {
   font-size: 2.5rem;
   font-weight: bolder;
   color: var(--black);
 }
 
-.header .logo i{
+.header .logo i {
   color: var(--orange);
 }
 
-.header .navbar a{
+.header .navbar a {
   font-size: 1.7rem;
   margin: 0 1rem;
   color: var(--black);
 }
 
 .header .navbar a:hover,
-.header .icons div:hover{
+.header .icons div:hover {
   color: var(--orange);
 }
 
-.header .icons div{
+.header .icons div {
   font-size: 2.5rem;
   margin-left: 1.7rem;
   color: var(--black);
   cursor: pointer;
 }
 
-#menu-btn{
+#menu-btn {
   display: none;
 }
 
-.header .login-form{
+.header .login-form {
   position: absolute;
-  top: 110%; right: -110%;
+  top: 110%;
+  right: -110%;
   width: 35rem;
   box-shadow: var(--box-shadow);
   padding: 2rem;
@@ -117,18 +122,18 @@ section{
   text-align: center;
 }
 
-.header .login-form.active{
+.header .login-form.active {
   right: 2rem;
   transition: .4s linear;
 }
 
-.header .login-form h3{
+.header .login-form h3 {
   font-size: 2.5rem;
   text-transform: uppercase;
   color: var(--black);
 }
 
-.header .login-form .box{
+.header .login-form .box {
   width: 100%;
   margin: .7rem 0;
   background: #eee;
@@ -139,13 +144,13 @@ section{
   text-transform: capitalize;
 }
 
-.header .login-form p{
+.header .login-form p {
   font-size: 1.4rem;
   padding: .5rem 0;
   color: var(--light-color);
 }
 
-.header .login-form p a{
+.header .login-form p a {
   color: var(--orange);
   text-decoration: underline;
 }
@@ -154,7 +159,7 @@ section{
 
 /* home */
 
-.home{
+.home {
   min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
@@ -163,32 +168,32 @@ section{
   position: relative;
 }
 
-.home .content{
+.home .content {
   flex: 1 1 40rem;
   padding-top: 6.5rem;
 }
 
-.home .content h3{
+.home .content h3 {
   font-size: 6rem;
   color: var(--black);
 }
 
-.home .content h3 span{
+.home .content h3 span {
   color: var(--orange);
 }
 
-.home .content p{
+.home .content p {
   font-size: 1.7rem;
   color: var(--light-color);
   line-height: 1.8;
   padding: 1rem 0;
 }
 
-.home .image{
+.home .image {
   flex: 1 1 40rem;
 }
 
-.home .image img{
+.home .image img {
   width: 100%;
   padding: 4rem;
 }
@@ -218,37 +223,37 @@ section{
 
 /* about us */
 
-.about{
+.about {
   background: var(--pink);
 }
 
-.about .row{
+.about .row {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
 }
 
-.about .row .image{
+.about .row .image {
   flex: 1 1 50rem;
 }
 
-.about .row .image img{
+.about .row .image img {
   width: 100%;
   height: 100%;
 }
 
-.about .row .content{
+.about .row .content {
   flex: 1 1 40rem;
 }
 
-.about .row .content h3{
+.about .row .content h3 {
   font-size: 3.5rem;
   color: var(--white);
   line-height: 1.5;
 }
 
-.about .row .content p{
+.about .row .content p {
   font-size: 1.4rem;
   color: var(--white);
   padding: 1rem 0;
@@ -259,34 +264,34 @@ section{
 
 /* education */
 
-.education .box-container{
+.education .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
 }
 
-.education .box-container .box{
+.education .box-container .box {
   background: var(--white);
   border-radius: 2rem;
   box-shadow: var(--box-shadow);
-  outline: .1rem solid rgba(0,0,0,.1);
+  outline: .1rem solid rgba(0, 0, 0, .1);
   outline-offset: -1rem;
   overflow: hidden;
 }
 
-.education .box-container .box:hover img{
+.education .box-container .box:hover img {
   transform: scale(1.1);
 }
 
-.education .box-container .box:nth-child(odd){
+.education .box-container .box:nth-child(odd) {
   background: var(--pink);
 }
 
-.education .box-container .box:nth-child(2){
+.education .box-container .box:nth-child(2) {
   background: var(--orange);
 }
 
-.education .box-container .box h3{
+.education .box-container .box h3 {
   font-size: 2.5rem;
   color: var(--white);
   line-height: 1.8;
@@ -294,14 +299,14 @@ section{
   padding-left: 2rem;
 }
 
-.education .box-container .box p{
+.education .box-container .box p {
   font-size: 1.5rem;
   line-height: 1.8;
   color: var(--white);
   padding: 1rem 2rem;
 }
 
-.education .box-container .box img{
+.education .box-container .box img {
   width: 100%;
   height: 66%;
 }
@@ -310,19 +315,19 @@ section{
 
 /* teacher */
 
-.teacher{
+.teacher {
   background: url(images/teacher-bg.png) no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.teacher .box-container{
+.teacher .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
 }
 
-.teacher .box-container .box{
+.teacher .box-container .box {
   background: var(--white);
   padding: 3rem 2rem;
   text-align: center;
@@ -330,22 +335,22 @@ section{
   border-radius: 2rem;
 }
 
-.teacher .box-container .box img{
+.teacher .box-container .box img {
   height: 30rem;
 }
 
-.teacher .box-container .box h3{
+.teacher .box-container .box h3 {
   font-size: 2.5rem;
   color: var(--black);
 }
 
-.teacher .box-container .box p{
+.teacher .box-container .box p {
   font-size: 1.7rem;
   color: var(--light-color);
   margin-bottom: 1rem;
 }
 
-.teacher .box-container .box .share i{
+.teacher .box-container .box .share i {
   height: 4.5rem;
   width: 4.5rem;
   line-height: 4.5rem;
@@ -359,7 +364,7 @@ section{
   cursor: pointer;
 }
 
-.teacher .box-container .box .share i:hover{
+.teacher .box-container .box .share i:hover {
   color: var(--white);
   border: .1rem solid var(--orange);
   background: var(--orange);
@@ -369,30 +374,30 @@ section{
 
 /* activities */
 
-.activities .box-container{
+.activities .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 1.5rem;
 }
 
-.activities .box-container .box{
+.activities .box-container .box {
   padding: 3rem 2rem;
   text-align: center;
   box-shadow: var(--box-shadow);
   border-radius: 2rem;
-  outline: .1rem solid rgba(0,0,0,.1);
+  outline: .1rem solid rgba(0, 0, 0, .1);
   outline-offset: -1rem;
 }
 
-.activities .box-container .box img{
+.activities .box-container .box img {
   height: 8rem;
 }
 
-.activities .box-container .box:hover img{
+.activities .box-container .box:hover img {
   transform: scale(1.1);
 }
 
-.activities .box-container .box h3{
+.activities .box-container .box h3 {
   font-size: 2.2rem;
   padding: 2rem 0;
   color: var(--black);
@@ -402,74 +407,75 @@ section{
 
 /* gallery */
 
-.gallery{
+.gallery {
   background: url(images/gallery-bg.png) no-repeat;
-  background-size: cover; 
+  background-size: cover;
 }
 
-.gallery .gallery-container{
+.gallery .gallery-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 2rem;
 }
 
-.gallery .gallery-container .box{
+.gallery .gallery-container .box {
   height: 100%;
   position: relative;
   overflow: hidden;
 }
 
-.gallery .gallery-container .box img{
+.gallery .gallery-container .box img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-.gallery .gallery-container .box:hover img{
+.gallery .gallery-container .box:hover img {
   transform: scale(1.2);
 }
 
-.gallery .gallery-container .box .icon{
+.gallery .gallery-container .box .icon {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 0; left: 0;
+  top: 0;
+  left: 0;
   z-index: 10;
   height: 100%;
   width: 100%;
-  background: rgba(0,0,0,.4);
+  background: rgba(0, 0, 0, .4);
   display: none;
 }
 
-.gallery .gallery-container .box .icon i{
+.gallery .gallery-container .box .icon i {
   font-size: 6rem;
   color: var(--white);
 }
 
-.gallery .gallery-container .box:hover .icon{
+.gallery .gallery-container .box:hover .icon {
   display: flex;
 }
 
 /* end */
 
-/* contact */
+/* register */
 
-.contact .icons-container{
+.register .icons-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
 }
 
-.contact .icons-container .icons{
+.register .icons-container .icons {
   padding: 2rem;
   box-shadow: var(--box-shadow);
   border-radius: 2rem;
   text-align: center;
-  outline: .1rem solid rgba(0,0,0,.1);
+  outline: .1rem solid rgba(0, 0, 0, .1);
   outline-offset: -1rem;
 }
 
-.contact .icons-container .icons i{
+.register .icons-container .icons i {
   font-size: 2.5rem;
   height: 6rem;
   width: 6rem;
@@ -479,61 +485,170 @@ section{
   background: var(--orange);
 }
 
-.contact .icons-container .icons h3{
+.register .icons-container .icons h3 {
   font-size: 2.2rem;
   padding: 1rem 0;
   color: var(--black);
 }
 
-.contact .icons-container .icons p{
+.register .icons-container .icons p {
   font-size: 1.5rem;
   line-height: 2;
   color: var(--light-color);
 }
 
-.contact .row{
+.register .row {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   margin-top: 4rem;
 }
 
-.contact .row .image{
+.register .row .image {
   flex: 1 1 20rem;
 }
 
-.contact .row .image img{
+.register .row .image img {
   width: 100%;
 }
 
-.contact .row form{
+.register .row form {
   flex: 1 1 50rem;
   padding: 2rem;
-  border: 0.1rem solid rgba(0,0,0,.4);
+  border: 0.1rem solid rgba(0, 0, 0, .4);
   box-shadow: var(--box-shadow);
   border-radius: .5rem;
 }
 
-.contact .row form h3{
+.register .row form h3 {
   font-size: 3rem;
   padding-bottom: 1rem;
   color: var(--black);
 }
 
-.contact .row form .inputBox{
+.register .row form .inputBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  /* justify-content: space-between; */
+}
+
+.register .row form .inputBox input {
+  width: 49%;
+}
+
+.register .row form .inputBox input,
+.register .row form textarea,
+.register .row form .inputBox .inputSpan {
+  font-size: 1.6rem;
+  border: 0.1rem solid rgba(0, 0, 0, .3);
+  border-radius: 0.5rem;
+  padding: 1rem 1.2rem;
+  color: var(--black);
+  margin: .7rem 0;
+}
+
+.register .row form .inputBox input:focus,
+.register .row form textarea:focus,
+.register .row form .inputBox .inputSpan:focus {
+  border: 0.1rem solid var(--orange);
+}
+
+.register .row form textarea {
+  height: 15rem;
+  width: 100%;
+  resize: none;
+}
+
+.register .row form .inputBox .inputSpan {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* contact */
+
+.contact .icons-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.contact .icons-container .icons {
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
+  border-radius: 2rem;
+  text-align: center;
+  outline: .1rem solid rgba(0, 0, 0, .1);
+  outline-offset: -1rem;
+}
+
+.contact .icons-container .icons i {
+  font-size: 2.5rem;
+  height: 6rem;
+  width: 6rem;
+  color: var(--white);
+  line-height: 6rem;
+  border-radius: 50%;
+  background: var(--orange);
+}
+
+.contact .icons-container .icons h3 {
+  font-size: 2.2rem;
+  padding: 1rem 0;
+  color: var(--black);
+}
+
+.contact .icons-container .icons p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: var(--light-color);
+}
+
+.contact .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 4rem;
+}
+
+.contact .row .image {
+  flex: 1 1 20rem;
+}
+
+.contact .row .image img {
+  width: 100%;
+}
+
+.contact .row form {
+  flex: 1 1 50rem;
+  padding: 2rem;
+  border: 0.1rem solid rgba(0, 0, 0, .4);
+  box-shadow: var(--box-shadow);
+  border-radius: .5rem;
+}
+
+.contact .row form h3 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  color: var(--black);
+}
+
+.contact .row form .inputBox {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.contact .row form .inputBox input{
+.contact .row form .inputBox input {
   width: 49%;
 }
 
 .contact .row form .inputBox input,
-.contact .row form textarea{
+.contact .row form textarea {
   font-size: 1.6rem;
-  border: 0.1rem solid rgba(0,0,0,.3);
+  border: 0.1rem solid rgba(0, 0, 0, .3);
   border-radius: 0.5rem;
   padding: 1rem 1.2rem;
   color: var(--black);
@@ -541,11 +656,11 @@ section{
 }
 
 .contact .row form .inputBox input:focus,
-.contact .row form textarea:focus{
+.contact .row form textarea:focus {
   border: 0.1rem solid var(--orange);
 }
 
-.contact .row form textarea{
+.contact .row form textarea {
   height: 15rem;
   width: 100%;
   resize: none;
@@ -555,118 +670,160 @@ section{
 
 /* footer */
 
-.footer{
+.footer {
   background: var(--pink);
 }
 
-.footer .box-container{
+.footer .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 1.5rem;
 }
 
-.footer .box-container .box h3{
+.footer .box-container .box h3 {
   font-size: 2.2rem;
   color: var(--orange);
   padding: 1rem 0;
 }
 
-.footer .box-container .box p{
+.footer .box-container .box p {
   font-size: 1.5rem;
   color: var(--white);
   padding: 1rem 0;
   line-height: 2;
 }
 
-.footer .box-container .box a{
+.footer .box-container .box a {
   display: block;
   font-size: 1.4rem;
   color: var(--white);
   padding: 1rem 0;
 }
 
-.footer .box-container .box a:hover{
+.footer .box-container .box a:hover {
   color: var(--orange);
 }
 
-.footer .box-container .box a i{
+.footer .box-container .box a i {
   padding-right: .5rem;
   color: var(--orange);
 }
 
-.footer .credit{
+.footer .credit {
   margin-top: 2.5rem;
   padding: 1rem;
   padding-top: 2rem;
-  border-top: .1rem solid rgba(0,0,0,.3);
+  border-top: .1rem solid rgba(0, 0, 0, .3);
   text-align: center;
   color: var(--white);
   font-size: 2rem;
 }
 
-.footer .credit span{
+.footer .credit span {
   color: var(--orange);
+}
+
+/* end */
+
+/* parent */
+.parent {
+  min-height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+  position: relative;
+}
+
+.parent-box-container {
+  width: 100%;
+  height: 100vh;
+}
+
+/* end */
+
+/* child */
+#child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+}
+
+.child-image-box {
+  display: flex;
+  width: 50rem;
+  height: 50rem;
+  border-radius: 25rem;
+  overflow: clip;
+}
+
+.child-image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 /* end */
 
 /* media query */
 
-@media (max-width:991px){
+@media (max-width:991px) {
 
-  html{
+  html {
     font-size: 55%;
   }
 
-  .header{
+  .header {
     padding: 2rem 3rem;
   }
 
-  section{
+  section {
     padding: 3rem;
   }
 
 }
 
-@media (max-width:768px){
+@media (max-width:768px) {
 
-  #menu-btn{
+  #menu-btn {
     display: inline-block;
   }
 
-  .header .navbar{
+  .header .navbar {
     position: absolute;
-    top: 110%; right: -110%;
+    top: 110%;
+    right: -110%;
     width: 30rem;
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
     background: var(--white);
   }
 
-  .header .navbar.active{
+  .header .navbar.active {
     right: 2rem;
     transition: .4s linear;
   }
 
-  .header .navbar a{
+  .header .navbar a {
     font-size: 2rem;
     margin: 2rem 2.5rem;
     display: block;
   }
 
-  .home .content h3{
+  .home .content h3 {
     font-size: 4.5rem;
   }
 
 }
 
-@media (max-width:450px){
-  html{
+@media (max-width:450px) {
+  html {
     font-size: 50%;
   }
-  .home .content h3{
+
+  .home .content h3 {
     font-size: 3.5rem;
   }
 }
-
-
