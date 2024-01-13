@@ -105,8 +105,8 @@ if (isset($_GET['log_out'])) {
                         Breakfast
                     </span>
                     <span class="dashboard-box-container-item-icon">
-                       <p><input type="radio">Yes</p> 
-                        <p><input type="radio">No</p>
+                       <input type="checkbox">
+                        
                         </span>
                 </div>
             </div>
@@ -117,8 +117,7 @@ if (isset($_GET['log_out'])) {
                         Lunch
                     </span>
                     <span class="dashboard-box-container-item-icon">
-                       <p><input type="radio">Yes</p> 
-                        <p><input type="radio">No</p>
+                       <input type="checkbox">
                         </span>
                 </div>
             </div>
@@ -129,8 +128,8 @@ if (isset($_GET['log_out'])) {
                         Sleep
                     </span>
                     <span class="dashboard-box-container-item-icon">
-                       <p><input type="radio">Yes</p> 
-                        <p><input type="radio">No</p>
+                       <input type="checkbox">
+                    
                         </span>
                 </div>
             </div>
