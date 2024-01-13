@@ -31,7 +31,6 @@ if (isset($_GET['log_out'])) {
         }
         section{
             padding-top: 90px;
-            background-image: url(images/backgroundmenu.png);
         }
         .table{
             width: 100%;
@@ -141,6 +140,7 @@ if (isset($_GET['log_out'])) {
                 </tr>
             </tbody>
         </table>
+        <img src="images/backgroundmenu.png" alt="">
     </section>
 </body>
 </html>
