@@ -25,6 +25,9 @@ if (isset($_GET['log_out'])) {
         body{
             margin:0;
             padding:20px;
+            background: url(images/backgroundmenu.png) no-repeat;
+              background-position: center;
+              background-size: cover;
         }
         *{
             box-sizing: border-box;
@@ -32,6 +35,7 @@ if (isset($_GET['log_out'])) {
         section{
             padding-top: 90px;
         }
+        
         .table{
             width: 100%;
             border-collapse: collapse;
@@ -94,6 +98,7 @@ if (isset($_GET['log_out'])) {
             Little Learners
         </a>
         <nav class="navbar">
+            <a href="parent.php">Child</a>
             <a href="schedule.php">schedule</a>
             <a href="menu.php">menu</a>
         </nav>
@@ -103,7 +108,7 @@ if (isset($_GET['log_out'])) {
         </form>
     </header>
 
-    <section>
+    <section class="menu">
         <table class="table"> 
             <thead>
                 <th>#</th>
@@ -139,6 +144,7 @@ if (isset($_GET['log_out'])) {
                 </tr>
             </tbody>
         </table>
+        
     </section>
 </body>
 </html>

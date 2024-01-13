@@ -65,13 +65,16 @@
 
             <div class="content">
                 <h3>Exploring, Growing, And Thriving Together</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam amet nam distinctio sunt facilis,
-                    quia accusamus sapiente at quod iure ea commodi? Labore, culpa! Voluptates delectus magni atque
-                    suscipit earum.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam amet nam distinctio sunt facilis,
-                    quia accusamus sapiente at quod iure ea commodi? Labore, culpa! Voluptates delectus magni atque
-                    suscipit earum.</p>
+                <p>At"Little Learners", we believe that every child is a unique individual with immense potential. Our preschool is not just a place for early education; 
+                    it's a home away from home, where children embark on a journey of discovery, curiosity, and growth.</p>
+                    <h4>Our Mission:</h4>
+                <p>At the heart of our mission is a commitment to providing a nurturing environment that fosters the holistic development of each child. We aim to create a foundation for lifelong learning by promoting social, emotional, cognitive, and physical development in
+                a play-based and engaging setting.</p>
+                <h4>Our Curriculum:</h4>
+                <p>Our curriculum is thoughtfully crafted to inspire a love for learning. We focus on building essential skills such as language development, motor skills, social interaction, and early literacy. Through a combination of structured activities and free play,
+               we aim to instill a sense of curiosity and a lifelong love of learning.</p>
                 <a href="#" class="btn">read more</a>
+
             </div>
 
         </div>
@@ -90,19 +93,16 @@
 
             <div class="box">
                 <h3>music lessons</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio ration</p>
                 <img src="images/education1.png" alt="">
             </div>
 
             <div class="box">
                 <h3>sports lessons</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio ration</p>
                 <img src="images/education2.png" alt="">
             </div>
 
             <div class="box">
                 <h3>drawing lessons</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio ration</p>
                 <img src="images/education3.png" alt="">
             </div>
 
@@ -122,8 +122,8 @@
 
             <div class="box">
                 <img src="images/teacher1.png" alt="">
-                <h3>john wright</h3>
-                <p>instructor</p>
+                <h3>Bella john</h3>
+                <p>art</p>
                 <div class="share">
                     <i class="fab fa-facebook-f"></i>
                     <i class="fab fa-twitter"></i>
@@ -133,8 +133,8 @@
 
             <div class="box">
                 <img src="images/teacher2.png" alt="">
-                <h3>john wright</h3>
-                <p>instructor</p>
+                <h3>joana wright</h3>
+                <p>music</p>
                 <div class="share">
                     <i class="fab fa-facebook-f"></i>
                     <i class="fab fa-twitter"></i>
@@ -144,8 +144,8 @@
 
             <div class="box">
                 <img src="images/teacher3.png" alt="">
-                <h3>john wright</h3>
-                <p>instructor</p>
+                <h3>Fatima Ahmed</h3>
+                <p>educator</p>
                 <div class="share">
                     <i class="fab fa-facebook-f"></i>
                     <i class="fab fa-twitter"></i>
@@ -169,7 +169,7 @@
 
             <div class="box">
                 <img src="images/activities1.png" alt="">
-                <h3>games and fun</h3>
+                <h3>alphabet</h3>
             </div>
 
             <div class="box">
@@ -179,32 +179,32 @@
 
             <div class="box">
                 <img src="images/activities3.png" alt="">
-                <h3>games and fun</h3>
+                <h3>books and story</h3>
             </div>
 
             <div class="box">
                 <img src="images/activities4.png" alt="">
-                <h3>games and fun</h3>
+                <h3>sports</h3>
             </div>
 
             <div class="box">
                 <img src="images/activities5.png" alt="">
-                <h3>games and fun</h3>
+                <h3>numbers</h3>
             </div>
 
             <div class="box">
                 <img src="images/activities6.png" alt="">
-                <h3>games and fun</h3>
+                <h3>tours</h3>
             </div>
 
             <div class="box">
                 <img src="images/activities7.png" alt="">
-                <h3>games and fun</h3>
+                <h3>painting</h3>
             </div>
 
             <div class="box">
                 <img src="images/activities8.png" alt="">
-                <h3>games and fun</h3>
+                <h3>music</h3>
             </div>
 
         </div>
@@ -268,21 +268,21 @@
             <div class="icons">
                 <i class="fas fa-clock"></i>
                 <h3>opening hours :</h3>
-                <p>mon - thurs: 08:00 am to 12:30 pm</p>
-                <p>friday: 09:00 am to 12:00 pm</p>
+                <p>mon - friday: 08:00 am to 16:00 pm</p>
+                
             </div>
 
             <div class="icons">
                 <i class="fas fa-envelope"></i>
                 <h3>email</h3>
-                <p>ninjashub4@gmail.com</p>
-                <p>ninjashub4@gmail.com</p>
+                <p>littlelearners@gmail.com</p>
+                <p>littlelearners@hotmail.com</p>
             </div>
 
             <div class="icons">
                 <i class="fas fa-phone"></i>
                 <h3>phone number</h3>
-                <p>+123-456-7890</p>
+                <p>+383-456-7890</p>
                 <p>+123-456-7890</p>
             </div>
 
@@ -321,40 +321,35 @@
         <div class="box-container">
 
             <div class="box">
-                <h3> <i class="fas fa-school"></i> Kindergarten </h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, unde</p>
+                <h3> <i class="fas fa-school"></i> Little Learners </h3>
+                <p>Come on, join us</p>
             </div>
 
             <div class="box">
                 <h3>quick links</h3>
                 <a href="#"> <i class="fas fa-caret-right"></i> enroll now</a>
-                <a href="#"> <i class="fas fa-caret-right"></i> parent portal</a>
-                <a href="#"> <i class="fas fa-caret-right"></i> school calendar</a>
-                <a href="#"> <i class="fas fa-caret-right"></i> lunch menu</a>
-                <a href="#"> <i class="fas fa-caret-right"></i> school supply list</a>
+                <a href="parent.php"> <i class="fas fa-caret-right"></i> parent portal</a>
+                <a href="schedule.php"> <i class="fas fa-caret-right"></i> Schedule</a>
+                <a href="menu.php"> <i class="fas fa-caret-right"></i> Menu</a>
+                
             </div>
 
             <div class="box">
                 <h3>category</h3>
-                <a href="#"> <i class="fas fa-caret-right"></i> about us</a>
-                <a href="#"> <i class="fas fa-caret-right"></i> academics</a>
-                <a href="#"> <i class="fas fa-caret-right"></i> admissions</a>
-                <a href="#"> <i class="fas fa-caret-right"></i> news & events</a>
-                <a href="#"> <i class="fas fa-caret-right"></i> contact us</a>
+                <a href="index.php#about"> <i class="fas fa-caret-right"></i> about us</a>
+                <a href="index.php#contact"> <i class="fas fa-caret-right"></i> contact us</a>
             </div>
 
             <div class="box">
                 <h3>extra links</h3>
                 <a href="#"> <i class="fas fa-caret-right"></i> privacy policy</a>
                 <a href="#"> <i class="fas fa-caret-right"></i> terms of use</a>
-                <a href="#"> <i class="fas fa-caret-right"></i> site map</a>
                 <a href="#"> <i class="fas fa-caret-right"></i> FAQs</a>
-                <a href="#"> <i class="fas fa-caret-right"></i> accessibility statement</a>
             </div>
 
         </div>
 
-        <div class="credit"> &copy; copyright @ 2023 <span>AAB FERIZAJ</span></div>
+        <div class="credit"> &copy; copyright  2023 <span>Little Learners</span></div>
 
     </section>
 

@@ -32,12 +32,12 @@ if (isset($_POST['login_user'])) {
     <a href="#" class="logo"> <i class="fas fa-school"></i> Little Learners</a>
 
     <nav class="navbar">
-        <a href="#home">home</a>
-        <a href="#about">about</a>
-        <a href="#education">education</a>
-        <a href="#teacher">teacher</a>
-        <a href="#gallery">gallery</a>
-        <a href="#contact">contact</a>
+        <a href="index.php#home">home</a>
+        <a href="index.php#about">about</a>
+        <a href="index.php#education">education</a>
+        <a href="index.php#teacher">teacher</a>
+        <a href="index.php#gallery">gallery</a>
+        <a href="index.php#contact">contact</a>
     </nav>
 
     <div class="icons">
