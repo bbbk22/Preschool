@@ -30,14 +30,10 @@ if (isset($_GET['log_out'])) {
             box-sizing: border-box;
         }
         
-        .images{
-            display: grid;
-           grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-           gap: 1.5rem;
-        }
+      
         section{
             padding-top: 90px;
-            gap: 1.5rem;
+            
         }
 
         .table{
@@ -202,11 +198,7 @@ if (isset($_GET['log_out'])) {
                 </tr>
             </tbody>
         </table>
-        <div class="images">
-        <img src="images/activities1.png" alt="">
-        <img src="images/activities2.png" alt="">
-        <img src="images/activities3.png" alt="">
-        </div>
+      
     </section>
 </body>
 </html>
