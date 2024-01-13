@@ -787,6 +787,11 @@ section {
   width: auto;
   height: 20rem;
 }
+.dashboard-box-container-item-icon p, input {
+  font-size: 10px;
+  font-style: bold;
+}
+ 
 
 /* end */
 

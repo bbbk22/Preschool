@@ -83,7 +83,7 @@ if (isset($_GET['log_out'])) {
                     </span>
                 </div>
             </div>
-            <div id="menu" class="dashboard-box-container">
+            <!-- <div id="menu" class="dashboard-box-container">
                 <div class="dashboard-box-container-item">
                     <h2 class="dashboard-box-container-item-title">
                         Today's Menu:
@@ -97,7 +97,7 @@ if (isset($_GET['log_out'])) {
                         <img src="menuu.png" alt="">
                     </span>
                 </div>
-            </div>
+            </div> -->
             <div id="schedule" class="dashboard-box-container">
                 <div class="dashboard-box-container-item">
                     
