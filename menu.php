@@ -29,7 +29,9 @@ if (isset($_GET['log_out'])) {
         *{
             box-sizing: border-box;
         }
-
+        section{
+            padding-top: 20px;
+        }
         .table{
             width: 100%;
             border-collapse: collapse;
@@ -92,7 +94,6 @@ if (isset($_GET['log_out'])) {
             Little Learners
         </a>
         <nav class="navbar">
-            <a href="#child">child</a>
             <a href="#schedule">schedule</a>
             <a href="#menu">menu</a>
         </nav>

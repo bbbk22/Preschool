@@ -30,6 +30,10 @@ if (isset($_GET['log_out'])) {
             box-sizing: border-box;
         }
 
+        section{
+            padding-top: 20px;
+        }
+
         .table{
             width: 100%;
             border-collapse: collapse;
@@ -46,7 +50,7 @@ if (isset($_GET['log_out'])) {
             color: #ffffff;
         }
         .table tbody tr:nth-child(even){
-            background-color: #f5f5f5;
+            background-color: #e9768f;
         }
 
         /* responsive */
@@ -75,9 +79,13 @@ if (isset($_GET['log_out'])) {
                 left:0;
                 width: 50%;
                 padding-left: 15px;
-                font-size: 15px;
+                font-size: 35px;
                 font-weight: bold;
                 text-align: left;
+            }
+
+            .table th:before{
+                font-size: 10px;
             }
         }
     </style>
@@ -92,7 +100,6 @@ if (isset($_GET['log_out'])) {
             Little Learners
         </a>
         <nav class="navbar">
-            <a href="#child">child</a>
             <a href="#schedule">schedule</a>
             <a href="#menu">menu</a>
         </nav>
