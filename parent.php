@@ -98,6 +98,42 @@ if (isset($_GET['log_out'])) {
                     </span>
                 </div>
             </div>
+            <div id="schedule" class="dashboard-box-container">
+                <div class="dashboard-box-container-item">
+                    
+                    <span class="dashboard-box-container-item-span">
+                        Breakfast
+                    </span>
+                    <span class="dashboard-box-container-item-icon">
+                       <p><input type="radio">Yes</p> 
+                        <p><input type="radio">No</p>
+                        </span>
+                </div>
+            </div>
+            <div id="schedule" class="dashboard-box-container">
+                <div class="dashboard-box-container-item">
+                    
+                    <span class="dashboard-box-container-item-span">
+                        Lunch
+                    </span>
+                    <span class="dashboard-box-container-item-icon">
+                       <p><input type="radio">Yes</p> 
+                        <p><input type="radio">No</p>
+                        </span>
+                </div>
+            </div>
+            <div id="schedule" class="dashboard-box-container">
+                <div class="dashboard-box-container-item">
+                    
+                    <span class="dashboard-box-container-item-span">
+                        Sleep
+                    </span>
+                    <span class="dashboard-box-container-item-icon">
+                       <p><input type="radio">Yes</p> 
+                        <p><input type="radio">No</p>
+                        </span>
+                </div>
+            </div>
         </div>
     </section>
 
