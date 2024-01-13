@@ -327,7 +327,6 @@
 
             <div class="box">
                 <h3>quick links</h3>
-                <a href="#"> <i class="fas fa-caret-right"></i> enroll now</a>
                 <a href="parent.php"> <i class="fas fa-caret-right"></i> parent portal</a>
                 <a href="schedule.php"> <i class="fas fa-caret-right"></i> Schedule</a>
                 <a href="menu.php"> <i class="fas fa-caret-right"></i> Menu</a>
@@ -338,6 +337,7 @@
                 <h3>category</h3>
                 <a href="index.php#about"> <i class="fas fa-caret-right"></i> about us</a>
                 <a href="index.php#contact"> <i class="fas fa-caret-right"></i> contact us</a>
+                <a href="mailto:adresa@email.com"><i class="fas fa-caret-right"></i>Send Email</a>
             </div>
 
             <div class="box">
@@ -345,6 +345,7 @@
                 <a href="#"> <i class="fas fa-caret-right"></i> privacy policy</a>
                 <a href="#"> <i class="fas fa-caret-right"></i> terms of use</a>
                 <a href="#"> <i class="fas fa-caret-right"></i> FAQs</a>
+                
             </div>
 
         </div>
