@@ -37,6 +37,7 @@ if (isset($_GET['log_out'])) {
         }
         section{
             padding-top: 90px;
+            gap: 1.5rem;
         }
 
         .table{
